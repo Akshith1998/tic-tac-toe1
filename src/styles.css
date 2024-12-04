@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+}
+
+.boxWrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: fit-content;
+  margin: auto;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  background: gray;
+  border: 1px solid;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box:hover {
+  background: #fff;
+}
